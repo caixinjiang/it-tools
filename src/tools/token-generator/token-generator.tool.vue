@@ -4,7 +4,7 @@ import { useCopy } from '@/composable/copy';
 import { useQueryParam } from '@/composable/queryParams';
 import { computedRefreshable } from '@/composable/computedRefreshable';
 
-const length = useQueryParam({ name: 'length', defaultValue: 64 });
+const length = useQueryParam({ name: 'length', defaultValue: 20 });
 const withUppercase = useQueryParam({ name: 'uppercase', defaultValue: true });
 const withLowercase = useQueryParam({ name: 'lowercase', defaultValue: true });
 const withNumbers = useQueryParam({ name: 'numbers', defaultValue: true });
